@@ -6,9 +6,8 @@
     box-sizing: border-box;
 }
 
-.debug {
-    background-color: aqua;
-    height: 1500px;
+body {
+    font-size: sans-serif;
 }
 
 /* Style Nav */
@@ -16,9 +15,10 @@
 nav {
     background-color: #FF6900;
     width: 100%;
-    height: 60px;
+    height: 80px;
     color: white;
-    padding-top: 15px;
+    font-size: 20px;
+    padding-top: 25px;
     margin-bottom: 30px;
 }
 
@@ -28,14 +28,20 @@ nav {
     margin: 0 auto;
 }
 
+/* main {
+    margin: 100 auto 0;
+} Simone */ 
 
 main {
-    margin-top: 300px;
+    margin-top: 130px;
+    width: 80%;
+    margin-left: 190px;
 }
 
 ul {
     list-style: none;
-    min-width: 150px;
+    min-width: 200px;
+    /* margin: 0 auto; Simone*/
 }
 
 a {
@@ -51,11 +57,13 @@ a {
 }    
 
 .logo {
-    height: 25px;
+    height: 35px;
+    /* margin: 0 auto; Simone */
 }
 
 i {
     padding-right: 4px;
+    /* margin: 0 auto; Simone */
 }
 
 .fixed {
@@ -68,11 +76,12 @@ i {
 
 .item {
     width: calc((100% - 30px) / 3);
-    /* position: relative; */
+    position: relative;
 }
 
 .item img {
     width: 100%;
+    position: relative;
 }
 
 .flex {
@@ -88,7 +97,6 @@ i {
     position: absolute;
     left: 0;
     top: 0;
-    width: 60px;
     padding: 5px;
     color: white;
     text-align: center;
@@ -97,4 +105,10 @@ i {
 
 .discount {
     background-color: red;
+    width: 60px;
+}
+
+.sustenaibility {
+    background-color: green;
+    width: 100px;
 }
