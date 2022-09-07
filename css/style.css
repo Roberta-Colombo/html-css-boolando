@@ -129,6 +129,11 @@ i {
     top: 15px;
     font-size: 40px;
     text-align: center;
+    cursor: pointer;
+}
+
+.heart:hover {
+    color: red;
 }
 
 .second-pic {
