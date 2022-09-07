@@ -86,6 +86,7 @@ i {
 
 .flex {
     display: flex; 
+    margin-bottom: 60px;
 }
 
 .margins {
@@ -113,6 +114,10 @@ i {
     width: 110px;
     position: absolute;
     left: 65px;
+}
+
+.sustenaibility.sixth-pic {
+    left: 0;
 }
 
 .heart {
@@ -152,3 +157,4 @@ i {
 .regular-price {
     text-decoration: line-through;
 }
+
