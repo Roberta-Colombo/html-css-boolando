@@ -125,3 +125,16 @@ i {
     font-size: 40px;
     text-align: center;
 }
+
+.second-pic {
+    display: none;
+}
+
+.item:hover .first-pic {
+    display: none;
+}
+
+.item:hover .second-pic {
+    display: block;
+}
+
