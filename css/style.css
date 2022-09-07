@@ -7,7 +7,7 @@
 }
 
 body {
-    font-size: sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 /* Style Nav */
@@ -40,7 +40,7 @@ main {
 
 ul {
     list-style: none;
-    min-width: 200px;
+    min-width: 250px;
     /* margin: 0 auto; Simone*/
 }
 
@@ -71,7 +71,7 @@ i {
     top: 0;
 }
 
-/* Style main */
+/* Style items */
 
 
 .item {
@@ -96,7 +96,7 @@ i {
     display: inline-block;
     position: absolute;
     left: 0;
-    bottom: 50px;
+    bottom: 100px;
     padding: 5px;
     color: white;
     text-align: center;
@@ -110,7 +110,7 @@ i {
 
 .sustenaibility {
     background-color: green;
-    width: 100px;
+    width: 110px;
     position: absolute;
     left: 65px;
 }
@@ -138,3 +138,17 @@ i {
     display: block;
 }
 
+/* Style items captions */
+
+.model-name {
+    font-weight: bolder;
+}
+
+.discount-price {
+    color: red;
+    font-weight: bold;
+}
+
+.regular-price {
+    text-decoration: line-through;
+}
