@@ -93,10 +93,10 @@ i {
 }
 
 .label {
-    display: block;
+    display: inline-block;
     position: absolute;
     left: 0;
-    top: 0;
+    bottom: 50px;
     padding: 5px;
     color: white;
     text-align: center;
@@ -111,4 +111,17 @@ i {
 .sustenaibility {
     background-color: green;
     width: 100px;
+    position: absolute;
+    left: 65px;
+}
+
+.heart {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    font-size: 40px;
+    text-align: center;
 }
