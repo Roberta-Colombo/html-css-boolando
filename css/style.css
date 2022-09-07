@@ -1,0 +1,77 @@
+/* Utility */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug {
+    background-color: aqua;
+    height: 1500px;
+}
+
+/* Style Nav */
+
+nav {
+    background-color: #FF6900;
+    width: 100%;
+    height: 60px;
+    color: white;
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    min-width: 150px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+} 
+
+.flexbox {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}    
+
+.logo {
+    height: 25px;
+}
+
+i {
+    padding-right: 4px;
+}
+
+.fixed {
+    position: fixed;
+}
+
+/* Style main */
+
+
+.item {
+    width: calc((100% - 30px) / 3)    
+}
+
+.item img {
+    width: 100%;
+}
+
+.flex {
+    display: flex; 
+}
+
+.margins {
+    margin: 0 15px;
+}
+
