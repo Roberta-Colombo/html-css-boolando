@@ -22,10 +22,16 @@ nav {
     margin-bottom: 30px;
 }
 
+
 .container {
     width: 80%;
     margin: 0 auto;
+    margin-top: 100px;
 }    
+/* 
+main {
+    margin-top: 300px;
+} */
 
 ul {
     list-style: none;
@@ -54,6 +60,7 @@ i {
 
 .fixed {
     position: fixed;
+    top: 0;
 }
 
 /* Style main */
@@ -61,7 +68,7 @@ i {
 
 .item {
     width: calc((100% - 30px) / 3);
-    position: relative;
+    /* position: relative; */
 }
 
 .item img {
@@ -80,7 +87,7 @@ i {
     display: block;
     position: absolute;
     left: 0;
-    bottom: 0;
+    top: 0;
     width: 60px;
     padding: 5px;
     color: white;
